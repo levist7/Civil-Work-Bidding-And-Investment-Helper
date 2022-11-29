@@ -106,12 +106,6 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 Please see contact details on presentation file [above](#project).
 
-Bloc 6 - Data scientist bootcamp
-
-Link to video : https://share.vidyard.com/watch/L2Ac7rT7DEb2YL2w8XLbhz?
-
-lisbiliroglu@gmail.com
-
 ---
 Made with ❤️ in Paris
 ---
