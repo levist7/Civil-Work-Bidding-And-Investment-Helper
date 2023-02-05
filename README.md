@@ -11,6 +11,7 @@
 * [Key documents](#key-documents)
 * [Technologies](#technologies)
 * [Datasets](#datasets)
+* [ML Models](#mlmodels)
 * [Getting Started](#getting-started)
 * [Top-directory layout](#top-directory-layout)
 * [License](#license)
@@ -78,6 +79,25 @@ Project is created with:
 > A building permit is an official approval document issued by a government agency that allows a construction or a renovation project on a property. More information can be found on this [website](https://www.thespruce.com/what-is-a-building-permit-1398344). Each city or county has its own building office to perform multiple functions such as issuing permits, inspecting buildings for safety measures, changing rules to meet the needs of a growing population, etc. For the City of San Francisco, building permits are handled by [SF DBI](www.sfdbi.org/). The dataset includes details on application/permit ID, job location, the current status of the applications and some other details. Data is uploaded weekly by DBI.
 
 2 - [Building Footprints in San Francisco](https://data.sfgov.org/Housing-and-Buildings/Building-Footprints-File-Geodatabase-Format-/asx6-3trm)
+
+## ML Models
+
+Machine learning model performances from the last experiment are summarized below:  
+
+* **Random Forest Regressor	| RMSLE= 0.161**    
+* LGBM Regressor		| RMSLE= 0.182  
+* XGBoost Regressor		| RMSLE= 0.158  
+* GradientBoosting Regressor	| RMSLE= 0.164  
+* KernelRidge			| RMSLE= 0.196
+* ElasticNet			| RMSLE= 0.228
+* Lasso 			| RMSLE= 0.229  
+* LinearRegression 		| RMSLE= 0.229  
+
+Please note that the results show the root mean squared log error with cross-validation and K=4-fold attributions.
+In this project, Random Forest Regressor was taken into consideration to deploy together with the app.  
+
+More details can be found under 'tracking' folder.  
+
 
 ## Getting started
 
